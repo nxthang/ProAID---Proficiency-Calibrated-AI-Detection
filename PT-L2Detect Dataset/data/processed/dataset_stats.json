@@ -1,0 +1,55 @@
+{
+  "dataset": "PT-L2Detect Benchmark",
+  "split_strategy": "Topic-disjoint test (Strategy 2)",
+  "description": "Test topics per CEFR: A1=4, A2=6, B1=14, B2=15, C1=12. Train/Val share topics.",
+  "date": "2026-06-04",
+  "overall": {
+    "total": 2850,
+    "train": 1781,
+    "val": 361,
+    "test": 708,
+    "human": 1422,
+    "ai": 1500
+  },
+  "cefr_distribution": {
+    "train": {
+      "A1": 468,
+      "A2": 303,
+      "B1": 427,
+      "B2": 332,
+      "C1": 251
+    },
+    "val": {
+      "A1": 98,
+      "A2": 71,
+      "B1": 84,
+      "B2": 65,
+      "C1": 43
+    },
+    "test": {
+      "A1": 148,
+      "A2": 150,
+      "B1": 156,
+      "B2": 136,
+      "C1": 118
+    }
+  },
+  "test_topics": {
+    "A1": 4,
+    "A2": 6,
+    "B1": 14,
+    "B2": 15,
+    "C1": 12
+  },
+  "ai_models": [
+    "ChatGPT",
+    "Qwen",
+    "DeepSeek",
+    "GLM",
+    "Gemini"
+  ],
+  "human_sources": [
+    "COPLE2",
+    "PEAPL2"
+  ]
+}
